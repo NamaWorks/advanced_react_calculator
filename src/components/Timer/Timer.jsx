@@ -8,8 +8,8 @@ const Timer = (props) => {
 
   return (
     <>
-      <p>date: {props.date}</p>
-      <p>time: {props.time}</p>
+      <h2>date: {props.date}</h2>
+      <h2>time: {props.time}</h2>
     </>
   )
 }

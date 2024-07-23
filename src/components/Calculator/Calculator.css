@@ -1,0 +1,4 @@
+.operations-available, #operations {
+  display: flex;
+  flex-direction: row;
+}

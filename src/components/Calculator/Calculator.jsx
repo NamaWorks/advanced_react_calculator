@@ -1,4 +1,7 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
+import InputField from './InputField/InputField'
+import Operations from './Operations/Operations'
+
 
 const Calculator = ()=> {
 
@@ -7,7 +10,10 @@ const Calculator = ()=> {
   },[])
 
   return (
-    <div>Calculator</div>
+    <>
+      <InputField />
+      <Operations />
+    </>
   )
 }
 

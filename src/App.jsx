@@ -3,6 +3,7 @@ import './App.css'
 import Calculator from './components/Calculator/Calculator'
 import Timer from './components/Timer/Timer'
 import { useDate } from './customHooks/useDate'
+import Operations from './components/Calculator/Operations/Operations'
 
 
 
@@ -16,7 +17,7 @@ const App = () => {
       date={date}
       time={time}
       />
-      <Calculator/>
+      <Calculator />
     </div>
   );
 };
