@@ -1,8 +1,16 @@
-import React from 'react'
+import { useEffect } from "react"
 
-const Timer = () => {
+const Timer = (props) => {
+
+  useEffect(()=> {
+    console.log("Timer printed")
+  },[])
+
   return (
-  <div>Timer</div>
+    <>
+      <p>date: {props.date}</p>
+      <p>time: {props.time}</p>
+    </>
   )
 }
 

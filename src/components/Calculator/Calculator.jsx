@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const Calculator = () => {
+const Calculator = ()=> {
+
+  useEffect(()=> {
+    console.log("calculator printed")
+  },[])
+
   return (
     <div>Calculator</div>
   )
